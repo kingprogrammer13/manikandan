@@ -1,0 +1,10 @@
+*** Settings ***
+Library           Selenium2Library
+Library           Main.py
+Variables         Variables.py
+
+*** Test Cases ***
+demo
+    Main
+    Login
+    sleep    5s
